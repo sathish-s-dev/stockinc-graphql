@@ -1,0 +1,1582 @@
+{
+  "watchlist": [
+    {
+      "id": 1,
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 2630,
+      "change": 35,
+      "change_percent": 1.35,
+      "market_cap": "15.2T",
+      "volume": "10.5M",
+      "pe_ratio": 22.5,
+      "dividend_yield": 0.8
+    }
+  ],
+  "stocks": [
+    {
+      "id": 1,
+      "symbol": "RELIANCE",
+      "company": "Reliance Industries Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 2630,
+      "change": 35,
+      "change_percent": 1.35,
+      "market_cap": "15.2T",
+      "volume": "10.5M",
+      "pe_ratio": 22.5,
+      "dividend_yield": 0.8
+    },
+    {
+      "id": 2,
+      "symbol": "TCS",
+      "company": "Tata Consultancy Services",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 3525,
+      "change": 20,
+      "change_percent": -0.57,
+      "market_cap": "14.8T",
+      "volume": "8.2M",
+      "pe_ratio": 30.2,
+      "dividend_yield": 1.2
+    },
+    {
+      "id": 3,
+      "symbol": "INFY",
+      "company": "Infosys Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/INFY.png",
+      "current_price": 1800,
+      "change": 15,
+      "change_percent": 0.84,
+      "market_cap": "7.5T",
+      "volume": "5.3M",
+      "pe_ratio": 25.8,
+      "dividend_yield": 1.5
+    },
+    {
+      "id": 4,
+      "symbol": "HDFCBANK",
+      "company": "HDFC Bank Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1600,
+      "change": 10,
+      "change_percent": 0.63,
+      "market_cap": "9.8T",
+      "volume": "12.4M",
+      "pe_ratio": 20.1,
+      "dividend_yield": 1
+    },
+    {
+      "id": 5,
+      "symbol": "ICICIBANK",
+      "company": "ICICI Bank Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 950,
+      "change": 8,
+      "change_percent": -0.85,
+      "market_cap": "6.7T",
+      "volume": "9.8M",
+      "pe_ratio": 18.7,
+      "dividend_yield": 0.9
+    },
+    {
+      "id": 6,
+      "symbol": "SBIN",
+      "company": "State Bank of India",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 600,
+      "change": 5,
+      "change_percent": 0.84,
+      "market_cap": "5.2T",
+      "volume": "15.6M",
+      "pe_ratio": 16.5,
+      "dividend_yield": 1.1
+    },
+    {
+      "id": 7,
+      "symbol": "HINDUNILVR",
+      "company": "Hindustan Unilever Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 2500,
+      "change": 12,
+      "change_percent": 0.48,
+      "market_cap": "5.9T",
+      "volume": "3.2M",
+      "pe_ratio": 55.3,
+      "dividend_yield": 1.8
+    },
+    {
+      "id": 8,
+      "symbol": "ITC",
+      "company": "ITC Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 220,
+      "change": 3,
+      "change_percent": 1.38,
+      "market_cap": "2.8T",
+      "volume": "18.5M",
+      "pe_ratio": 24.7,
+      "dividend_yield": 2.5
+    },
+    {
+      "id": 9,
+      "symbol": "BAJFINANCE",
+      "company": "Bajaj Finance Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 7500,
+      "change": 50,
+      "change_percent": -0.67,
+      "market_cap": "4.5T",
+      "volume": "1.2M",
+      "pe_ratio": 35.6,
+      "dividend_yield": 0.5
+    },
+    {
+      "id": 10,
+      "symbol": "BHARTIARTL",
+      "company": "Bharti Airtel Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 800,
+      "change": 10,
+      "change_percent": 1.27,
+      "market_cap": "4.8T",
+      "volume": "7.8M",
+      "pe_ratio": 28.4,
+      "dividend_yield": 0.7
+    },
+    {
+      "id": 11,
+      "symbol": "AXISBANK",
+      "company": "Axis Bank Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 850,
+      "change": 7,
+      "change_percent": 0.83,
+      "market_cap": "3.2T",
+      "volume": "6.5M",
+      "pe_ratio": 19.8,
+      "dividend_yield": 0.6
+    },
+    {
+      "id": 12,
+      "symbol": "KOTAKBANK",
+      "company": "Kotak Mahindra Bank Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1900,
+      "change": 15,
+      "change_percent": 0.79,
+      "market_cap": "3.9T",
+      "volume": "4.2M",
+      "pe_ratio": 22.3,
+      "dividend_yield": 0.8
+    },
+    {
+      "id": 13,
+      "symbol": "ASIANPAINT",
+      "company": "Asian Paints Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 3200,
+      "change": 25,
+      "change_percent": 0.79,
+      "market_cap": "3.1T",
+      "volume": "1.8M",
+      "pe_ratio": 60.5,
+      "dividend_yield": 1.2
+    },
+    {
+      "id": 14,
+      "symbol": "MARUTI",
+      "company": "Maruti Suzuki India Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 9000,
+      "change": 40,
+      "change_percent": 0.45,
+      "market_cap": "2.9T",
+      "volume": "1.5M",
+      "pe_ratio": 30.8,
+      "dividend_yield": 0.9
+    },
+    {
+      "id": 15,
+      "symbol": "TITAN",
+      "company": "Titan Company Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 2500,
+      "change": 20,
+      "change_percent": 0.81,
+      "market_cap": "2.3T",
+      "volume": "2.1M",
+      "pe_ratio": 75.4,
+      "dividend_yield": 0.7
+    },
+    {
+      "id": 16,
+      "symbol": "NTPC",
+      "company": "NTPC Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 150,
+      "change": 2,
+      "change_percent": -1.35,
+      "market_cap": "1.8T",
+      "volume": "12.3M",
+      "pe_ratio": 12.5,
+      "dividend_yield": 3.2
+    },
+    {
+      "id": 17,
+      "symbol": "ONGC",
+      "company": "Oil and Natural Gas Corporation Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 180,
+      "change": 3,
+      "change_percent": 1.69,
+      "market_cap": "2.1T",
+      "volume": "14.5M",
+      "pe_ratio": 10.8,
+      "dividend_yield": 4
+    },
+    {
+      "id": 18,
+      "symbol": "POWERGRID",
+      "company": "Power Grid Corporation of India Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 220,
+      "change": 4,
+      "change_percent": 1.85,
+      "market_cap": "1.5T",
+      "volume": "8.9M",
+      "pe_ratio": 14.2,
+      "dividend_yield": 3.5
+    },
+    {
+      "id": 19,
+      "symbol": "ULTRACEMCO",
+      "company": "UltraTech Cement Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 7000,
+      "change": 30,
+      "change_percent": 0.43,
+      "market_cap": "2.0T",
+      "volume": "1.1M",
+      "pe_ratio": 25.6,
+      "dividend_yield": 0.9
+    },
+    {
+      "id": 20,
+      "symbol": "WIPRO",
+      "company": "Wipro Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 500,
+      "change": 5,
+      "change_percent": 1.01,
+      "market_cap": "2.7T",
+      "volume": "6.8M",
+      "pe_ratio": 22.8,
+      "dividend_yield": 1.4
+    },
+    {
+      "id": 21,
+      "symbol": "HCLTECH",
+      "company": "HCL Technologies Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1200,
+      "change": 10,
+      "change_percent": 0.84,
+      "market_cap": "3.4T",
+      "volume": "4.5M",
+      "pe_ratio": 20.5,
+      "dividend_yield": 1.6
+    },
+    {
+      "id": 22,
+      "symbol": "TECHM",
+      "company": "Tech Mahindra Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1100,
+      "change": 8,
+      "change_percent": 0.73,
+      "market_cap": "1.9T",
+      "volume": "3.7M",
+      "pe_ratio": 18.9,
+      "dividend_yield": 1.3
+    },
+    {
+      "id": 23,
+      "symbol": "SUNPHARMA",
+      "company": "Sun Pharmaceutical Industries Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 900,
+      "change": 7,
+      "change_percent": -0.78,
+      "market_cap": "2.4T",
+      "volume": "5.6M",
+      "pe_ratio": 30.1,
+      "dividend_yield": 0.8
+    },
+    {
+      "id": 24,
+      "symbol": "DRREDDY",
+      "company": "Dr. Reddy's Laboratories Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 5500,
+      "change": 40,
+      "change_percent": 0.73,
+      "market_cap": "1.7T",
+      "volume": "1.3M",
+      "pe_ratio": 28.7,
+      "dividend_yield": 0.6
+    },
+    {
+      "id": 25,
+      "symbol": "CIPLA",
+      "company": "Cipla Limited",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1200,
+      "change": 10,
+      "change_percent": -0.84,
+      "market_cap": "1.6T",
+      "volume": "2.4M",
+      "pe_ratio": 25.4,
+      "dividend_yield": 0.9
+    },
+    {
+      "id": 26,
+      "symbol": "AAPL",
+      "company": "Apple Inc.",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/AAPL.png",
+      "current_price": 1200,
+      "change": 10,
+      "change_percent": -0.84,
+      "market_cap": "1.6T",
+      "volume": "2.4M",
+      "pe_ratio": 25.4,
+      "dividend_yield": 0.9
+    },
+    {
+      "id": 27,
+      "symbol": "TSLA",
+      "company": "Tesla Inc.",
+
+      "logo": "https://images.financialmodelingprep.com/symbol/TSLA.png",
+      "current_price": 1200,
+      "change": 10,
+      "change_percent": -0.84,
+      "market_cap": "1.6T",
+      "volume": "2.4M",
+      "pe_ratio": 25.4,
+      "dividend_yield": 0.9
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "AI Breakthrough: GPT-5 Launches with Advanced Features",
+      "description": "OpenAI has introduced GPT-5, bringing enhanced reasoning, contextual understanding, and AI safety.",
+      "image": "https://source.unsplash.com/600x400/?technology,ai",
+      "category": "Technology",
+      "timestamp": "2025-02-27T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Stock Market Reaches All-Time High",
+      "description": "The stock market is soaring, driven by strong earnings from leading tech companies.",
+      "image": "https://source.unsplash.com/600x400/?business,stock",
+      "category": "Business",
+      "timestamp": "2025-02-27T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Champions League Quarterfinals: Exciting Matchups",
+      "description": "Top European clubs will face off in the highly anticipated quarterfinals.",
+      "image": "https://source.unsplash.com/600x400/?sports,football",
+      "category": "Sports",
+      "timestamp": "2025-02-27T14:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Oscars 2025: Hollywood’s Biggest Night",
+      "description": "The Academy Awards are set to take place, with top films competing for major awards.",
+      "image": "https://source.unsplash.com/600x400/?movies,oscars",
+      "category": "Entertainment",
+      "timestamp": "2025-02-27T16:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "New Health Study Reveals Benefits of Plant-Based Diet",
+      "description": "A new study suggests plant-based diets can significantly improve heart health and longevity.",
+      "image": "https://source.unsplash.com/600x400/?health,food",
+      "category": "Health",
+      "timestamp": "2025-02-27T18:45:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Apple Unveils Vision Pro 2: What’s New?",
+      "description": "Apple has announced the Vision Pro 2 with an improved display, longer battery life, and new AR features.",
+      "image": "https://source.unsplash.com/600x400/?apple,technology",
+      "category": "Technology",
+      "timestamp": "2025-02-28T09:20:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Bitcoin Surpasses $70,000: What’s Driving the Surge?",
+      "description": "Bitcoin has reached an all-time high due to growing institutional investment and ETF approvals.",
+      "image": "https://source.unsplash.com/600x400/?crypto,bitcoin",
+      "category": "Business",
+      "timestamp": "2025-02-28T11:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Olympics 2025: Host City Ready for Grand Opening",
+      "description": "Final preparations are underway for the grand opening ceremony of the 2025 Olympics.",
+      "image": "https://source.unsplash.com/600x400/?olympics,sports",
+      "category": "Sports",
+      "timestamp": "2025-02-28T13:45:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Netflix Unveils New Sci-Fi Series",
+      "description": "Netflix is set to release a mind-bending sci-fi thriller with stunning visuals and a gripping plot.",
+      "image": "https://source.unsplash.com/600x400/?netflix,series",
+      "category": "Entertainment",
+      "timestamp": "2025-02-28T15:30:00Z"
+    },
+    {
+      "id": 10,
+      "title": "WHO Warns About New Virus Variant",
+      "description": "The World Health Organization has issued a global warning about a newly discovered virus variant.",
+      "image": "https://source.unsplash.com/600x400/?health,virus",
+      "category": "Health",
+      "timestamp": "2025-02-28T17:15:00Z"
+    }
+  ],
+  "candlestick": [
+    {
+      "date": "2025-02-25",
+      "open": "261.08",
+      "high": "263.48",
+      "low": "256.77",
+      "close": "257.75",
+      "adjusted close": "257.75",
+      "volume": "6292487",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-24",
+      "open": "261.5",
+      "high": "263.845",
+      "low": "259.58",
+      "close": "261.87",
+      "adjusted close": "261.87",
+      "volume": "4398107",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-21",
+      "open": "263.845",
+      "high": "264.83",
+      "low": "261.1",
+      "close": "261.48",
+      "adjusted close": "261.48",
+      "volume": "5667874",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-20",
+      "open": "263.65",
+      "high": "265.09",
+      "low": "262.15",
+      "close": "264.74",
+      "adjusted close": "264.74",
+      "volume": "4884805",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-19",
+      "open": "262.0",
+      "high": "264.36",
+      "low": "260.09",
+      "close": "264.32",
+      "adjusted close": "264.32",
+      "volume": "3718678",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-18",
+      "open": "261.93",
+      "high": "263.965",
+      "low": "259.83",
+      "close": "263.07",
+      "adjusted close": "263.07",
+      "volume": "4262812",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-14",
+      "open": "259.0",
+      "high": "261.94",
+      "low": "257.91",
+      "close": "261.28",
+      "adjusted close": "261.28",
+      "volume": "3925277",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-13",
+      "open": "255.66",
+      "high": "259.28",
+      "low": "254.41",
+      "close": "259.19",
+      "adjusted close": "259.19",
+      "volume": "4531538",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-12",
+      "open": "252.72",
+      "high": "256.4",
+      "low": "252.02",
+      "close": "255.81",
+      "adjusted close": "255.81",
+      "volume": "3075308",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-11",
+      "open": "251.1",
+      "high": "256.75",
+      "low": "250.58",
+      "close": "254.7",
+      "adjusted close": "254.7",
+      "volume": "4801550",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-10",
+      "open": "250.86",
+      "high": "251.95",
+      "low": "246.87",
+      "close": "249.27",
+      "adjusted close": "249.27",
+      "volume": "3564400",
+      "dividend amount": "1.6700",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-07",
+      "open": "255.28",
+      "high": "256.93",
+      "low": "252.02",
+      "close": "252.34",
+      "adjusted close": "250.6606830318",
+      "volume": "3370284",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-06",
+      "open": "262.98",
+      "high": "263.38",
+      "low": "252.73",
+      "close": "253.44",
+      "adjusted close": "251.753362556786",
+      "volume": "6128293",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-05",
+      "open": "265.71",
+      "high": "265.72",
+      "low": "261.18",
+      "close": "263.3",
+      "adjusted close": "261.547744480752",
+      "volume": "6165096",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-04",
+      "open": "260.0",
+      "high": "265.25",
+      "low": "258.1233",
+      "close": "264.46",
+      "adjusted close": "262.700024707101",
+      "volume": "6077652",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-02-03",
+      "open": "252.4",
+      "high": "262.06",
+      "low": "251.84",
+      "close": "260.73",
+      "adjusted close": "258.994847772376",
+      "volume": "8408523",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-31",
+      "open": "256.05",
+      "high": "257.235",
+      "low": "251.89",
+      "close": "255.7",
+      "adjusted close": "253.998322308121",
+      "volume": "7203519",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-30",
+      "open": "250.0",
+      "high": "261.8",
+      "low": "247.01",
+      "close": "258.27",
+      "adjusted close": "256.551219016498",
+      "volume": "15381890",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-29",
+      "open": "225.62",
+      "high": "229.47",
+      "low": "223.73",
+      "close": "228.63",
+      "adjusted close": "227.108472543237",
+      "volume": "7079804",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-28",
+      "open": "224.32",
+      "high": "225.77",
+      "low": "221.77",
+      "close": "225.66",
+      "adjusted close": "224.158237825775",
+      "volume": "4485429",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-27",
+      "open": "222.19",
+      "high": "224.3",
+      "low": "219.84",
+      "close": "224.13",
+      "adjusted close": "222.638419941022",
+      "volume": "4898355",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-24",
+      "open": "225.27",
+      "high": "226.8104",
+      "low": "223.8",
+      "close": "224.8",
+      "adjusted close": "223.303961106241",
+      "volume": "3233293",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-23",
+      "open": "223.94",
+      "high": "226.04",
+      "low": "223.15",
+      "close": "226.04",
+      "adjusted close": "224.535708934407",
+      "volume": "3619651",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-22",
+      "open": "221.98",
+      "high": "224.4",
+      "low": "220.35",
+      "close": "223.26",
+      "adjusted close": "221.77420977126",
+      "volume": "4759490",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-21",
+      "open": "224.99",
+      "high": "227.45",
+      "low": "222.8302",
+      "close": "224.26",
+      "adjusted close": "222.767554793975",
+      "volume": "3982203",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-17",
+      "open": "225.955",
+      "high": "225.955",
+      "low": "223.64",
+      "close": "224.79",
+      "adjusted close": "223.294027656013",
+      "volume": "5506837",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-16",
+      "open": "219.69",
+      "high": "222.68",
+      "low": "217.38",
+      "close": "222.66",
+      "adjusted close": "221.178202757631",
+      "volume": "3329060",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-15",
+      "open": "220.87",
+      "high": "221.6761",
+      "low": "218.01",
+      "close": "220.03",
+      "adjusted close": "218.565705347892",
+      "volume": "2951825",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-14",
+      "open": "218.0",
+      "high": "218.125",
+      "low": "214.61",
+      "close": "217.75",
+      "adjusted close": "216.300878696103",
+      "volume": "3485829",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-13",
+      "open": "217.89",
+      "high": "219.59",
+      "low": "214.75",
+      "close": "217.4",
+      "adjusted close": "215.953207938153",
+      "volume": "3716816",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-10",
+      "open": "222.0",
+      "high": "222.43",
+      "low": "216.8",
+      "close": "219.75",
+      "adjusted close": "218.287568741532",
+      "volume": "3570497",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-08",
+      "open": "223.91",
+      "high": "224.9",
+      "low": "220.83",
+      "close": "223.18",
+      "adjusted close": "221.694742169443",
+      "volume": "2619768",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-07",
+      "open": "223.35",
+      "high": "226.711",
+      "low": "222.83",
+      "close": "223.96",
+      "adjusted close": "222.46955128716",
+      "volume": "3299701",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-06",
+      "open": "223.0",
+      "high": "224.35",
+      "low": "220.75",
+      "close": "222.67",
+      "adjusted close": "221.188136207858",
+      "volume": "2847128",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-03",
+      "open": "220.55",
+      "high": "223.66",
+      "low": "220.55",
+      "close": "222.65",
+      "adjusted close": "221.168269307404",
+      "volume": "3873578",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2025-01-02",
+      "open": "221.82",
+      "high": "222.49",
+      "low": "217.6",
+      "close": "219.94",
+      "adjusted close": "218.476304295848",
+      "volume": "2579498",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-31",
+      "open": "220.72",
+      "high": "221.0493",
+      "low": "218.44",
+      "close": "219.83",
+      "adjusted close": "218.367036343349",
+      "volume": "2270512",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-30",
+      "open": "220.54",
+      "high": "221.5942",
+      "low": "217.6523",
+      "close": "220.25",
+      "adjusted close": "218.784241252889",
+      "volume": "2095565",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-27",
+      "open": "223.14",
+      "high": "224.42",
+      "low": "221.4054",
+      "close": "222.78",
+      "adjusted close": "221.297404160357",
+      "volume": "1810760",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-26",
+      "open": "223.31",
+      "high": "225.4",
+      "low": "222.55",
+      "close": "224.89",
+      "adjusted close": "223.393362158285",
+      "volume": "3287238",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-24",
+      "open": "222.27",
+      "high": "224.4446",
+      "low": "221.5428",
+      "close": "224.41",
+      "adjusted close": "222.916556547382",
+      "volume": "1186216",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-23",
+      "open": "222.81",
+      "high": "223.74",
+      "low": "221.08",
+      "close": "221.93",
+      "adjusted close": "220.45306089105",
+      "volume": "2988137",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-20",
+      "open": "222.73",
+      "high": "227.6847",
+      "low": "221.68",
+      "close": "223.36",
+      "adjusted close": "221.873544273532",
+      "volume": "12423200",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-19",
+      "open": "224.42",
+      "high": "226.2",
+      "low": "222.98",
+      "close": "223.92",
+      "adjusted close": "222.429817486252",
+      "volume": "4430120",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-18",
+      "open": "229.035",
+      "high": "229.035",
+      "low": "220.03",
+      "close": "220.17",
+      "adjusted close": "218.704773651072",
+      "volume": "4152517",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-17",
+      "open": "229.23",
+      "high": "230.2",
+      "low": "227.62",
+      "close": "228.97",
+      "adjusted close": "227.44620985096",
+      "volume": "3651346",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-16",
+      "open": "230.73",
+      "high": "231.03",
+      "low": "226.88",
+      "close": "450.0",
+      "adjusted close": "227.803814059138",
+      "volume": "3610257",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-13",
+      "open": "232.25",
+      "high": "233.775",
+      "low": "230.26",
+      "close": "230.82",
+      "adjusted close": "229.283898142982",
+      "volume": "2757683",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-12",
+      "open": "230.66",
+      "high": "233.89",
+      "low": "230.38",
+      "close": "232.26",
+      "adjusted close": "230.714314975691",
+      "volume": "4515741",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-11",
+      "open": "232.69",
+      "high": "233.0",
+      "low": "229.13",
+      "close": "230.12",
+      "adjusted close": "228.588556627082",
+      "volume": "3872680",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-10",
+      "open": "228.4",
+      "high": "234.39",
+      "low": "227.8",
+      "close": "231.72",
+      "adjusted close": "230.177908663426",
+      "volume": "4769531",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-09",
+      "open": "238.0",
+      "high": "239.35",
+      "low": "228.91",
+      "close": "230.0",
+      "adjusted close": "228.469355224356",
+      "volume": "4970449",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-06",
+      "open": "234.43",
+      "high": "238.38",
+      "low": "234.22",
+      "close": "238.04",
+      "adjusted close": "236.455849206982",
+      "volume": "4028430",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-05",
+      "open": "233.55",
+      "high": "236.52",
+      "low": "233.46",
+      "close": "234.75",
+      "adjusted close": "233.187744082251",
+      "volume": "4791116",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-04",
+      "open": "230.0",
+      "high": "233.74",
+      "low": "229.35",
+      "close": "233.49",
+      "adjusted close": "231.93612935363",
+      "volume": "4104195",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-03",
+      "open": "227.24",
+      "high": "229.11",
+      "low": "226.67",
+      "close": "229.0",
+      "adjusted close": "227.476010201642",
+      "volume": "3163815",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-12-02",
+      "open": "227.5",
+      "high": "228.38",
+      "low": "225.51",
+      "close": "227.39",
+      "adjusted close": "225.876724715071",
+      "volume": "2656181",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-29",
+      "open": "227.75",
+      "high": "230.36",
+      "low": "227.19",
+      "close": "227.41",
+      "adjusted close": "225.896591615526",
+      "volume": "2640253",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-27",
+      "open": "228.83",
+      "high": "229.19",
+      "low": "224.27",
+      "close": "226.92",
+      "adjusted close": "225.409852554395",
+      "volume": "2995121",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-26",
+      "open": "226.73",
+      "high": "228.98",
+      "low": "225.5115",
+      "close": "228.83",
+      "adjusted close": "227.30714154778",
+      "volume": "4449543",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-25",
+      "open": "223.35",
+      "high": "226.42",
+      "low": "222.65",
+      "close": "226.13",
+      "adjusted close": "224.625109986451",
+      "volume": "7189260",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-22",
+      "open": "223.35",
+      "high": "227.2",
+      "low": "220.89",
+      "close": "222.97",
+      "adjusted close": "221.486139714673",
+      "volume": "5320740",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-21",
+      "open": "215.81",
+      "high": "222.63",
+      "low": "215.2701",
+      "close": "222.4",
+      "adjusted close": "220.919933051726",
+      "volume": "5236434",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-20",
+      "open": "211.0",
+      "high": "214.96",
+      "low": "209.7725",
+      "close": "214.6",
+      "adjusted close": "213.171841874552",
+      "volume": "4562901",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-19",
+      "open": "206.5",
+      "high": "210.33",
+      "low": "206.19",
+      "close": "210.25",
+      "adjusted close": "208.850791025743",
+      "volume": "2860746",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-18",
+      "open": "207.0",
+      "high": "208.415",
+      "low": "205.3701",
+      "close": "208.09",
+      "adjusted close": "206.70516577668",
+      "volume": "3406045",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-15",
+      "open": "207.46",
+      "high": "208.49",
+      "low": "204.07",
+      "close": "204.99",
+      "adjusted close": "203.625796206264",
+      "volume": "3986460",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-14",
+      "open": "210.0",
+      "high": "210.4999",
+      "low": "206.35",
+      "close": "208.99",
+      "adjusted close": "207.599176297123",
+      "volume": "6372853",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-13",
+      "open": "209.5",
+      "high": "211.41",
+      "low": "209.0701",
+      "close": "210.92",
+      "adjusted close": "209.516332190962",
+      "volume": "3247830",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-12",
+      "open": "211.9",
+      "high": "213.03",
+      "low": "209.06",
+      "close": "210.86",
+      "adjusted close": "209.456731489599",
+      "volume": "2818216",
+      "dividend amount": "1.6700",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-11",
+      "open": "214.4",
+      "high": "215.41",
+      "low": "213.48",
+      "close": "213.57",
+      "adjusted close": "210.481692675075",
+      "volume": "3012987",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-08",
+      "open": "214.16",
+      "high": "216.7",
+      "low": "212.7809",
+      "close": "213.72",
+      "adjusted close": "210.629523615288",
+      "volume": "3201038",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-07",
+      "open": "213.64",
+      "high": "214.5199",
+      "low": "211.93",
+      "close": "213.69",
+      "adjusted close": "210.599957427245",
+      "volume": "3675812",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-06",
+      "open": "213.48",
+      "high": "214.33",
+      "low": "210.37",
+      "close": "213.6",
+      "adjusted close": "210.511258863118",
+      "volume": "3934386",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-05",
+      "open": "206.17",
+      "high": "208.115",
+      "low": "205.57",
+      "close": "207.57",
+      "adjusted close": "204.56845506656",
+      "volume": "2441535",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-04",
+      "open": "207.65",
+      "high": "207.7",
+      "low": "205.8",
+      "close": "206.32",
+      "adjusted close": "203.336530564787",
+      "volume": "2594119",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-11-01",
+      "open": "207.77",
+      "high": "209.84",
+      "low": "207.41",
+      "close": "208.25",
+      "adjusted close": "205.238621995525",
+      "volume": "3334308",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-31",
+      "open": "204.13",
+      "high": "208.13",
+      "low": "203.51",
+      "close": "206.72",
+      "adjusted close": "203.730746405354",
+      "volume": "5925250",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-30",
+      "open": "209.48",
+      "high": "211.12",
+      "low": "204.26",
+      "close": "204.9",
+      "adjusted close": "201.937064330772",
+      "volume": "6956624",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-29",
+      "open": "211.99",
+      "high": "213.34",
+      "low": "209.85",
+      "close": "210.43",
+      "adjusted close": "207.387098326619",
+      "volume": "5258366",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-28",
+      "open": "215.5",
+      "high": "216.25",
+      "low": "212.7",
+      "close": "212.91",
+      "adjusted close": "209.831236538138",
+      "volume": "4993343",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-25",
+      "open": "216.8",
+      "high": "218.65",
+      "low": "214.385",
+      "close": "214.67",
+      "adjusted close": "211.565786236636",
+      "volume": "8482235",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-24",
+      "open": "220.8",
+      "high": "221.32",
+      "low": "216.16",
+      "close": "218.39",
+      "adjusted close": "215.231993553915",
+      "volume": "11193440",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-23",
+      "open": "230.41",
+      "high": "233.34",
+      "low": "230.26",
+      "close": "232.75",
+      "adjusted close": "229.384342230293",
+      "volume": "5791002",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-22",
+      "open": "231.99",
+      "high": "232.97",
+      "low": "230.67",
+      "close": "232.25",
+      "adjusted close": "228.891572429584",
+      "volume": "3180807",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-21",
+      "open": "231.21",
+      "high": "232.42",
+      "low": "230.26",
+      "close": "231.75",
+      "adjusted close": "228.398802628874",
+      "volume": "2733336",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-18",
+      "open": "231.92",
+      "high": "232.6499",
+      "low": "230.17",
+      "close": "232.2",
+      "adjusted close": "228.842295449513",
+      "volume": "4715688",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-17",
+      "open": "232.0",
+      "high": "233.145",
+      "low": "230.655",
+      "close": "232.88",
+      "adjusted close": "229.512462378478",
+      "volume": "5040092",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-16",
+      "open": "232.11",
+      "high": "233.88",
+      "low": "231.12",
+      "close": "233.67",
+      "adjusted close": "230.291038663599",
+      "volume": "2846669",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-15",
+      "open": "236.4",
+      "high": "237.37",
+      "low": "232.71",
+      "close": "232.96",
+      "adjusted close": "229.591305546591",
+      "volume": "3350556",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-14",
+      "open": "233.57",
+      "high": "236.12",
+      "low": "233.17",
+      "close": "235.26",
+      "adjusted close": "231.858046629855",
+      "volume": "2524389",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-11",
+      "open": "233.25",
+      "high": "233.44",
+      "low": "230.46",
+      "close": "233.26",
+      "adjusted close": "229.886967427017",
+      "volume": "3469322",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-10",
+      "open": "235.1",
+      "high": "235.83",
+      "low": "231.81",
+      "close": "233.02",
+      "adjusted close": "229.650437922676",
+      "volume": "3142031",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-09",
+      "open": "229.2",
+      "high": "234.95",
+      "low": "228.5",
+      "close": "234.3",
+      "adjusted close": "230.911928612493",
+      "volume": "5083566",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-08",
+      "open": "228.11",
+      "high": "229.345",
+      "low": "227.0401",
+      "close": "228.62",
+      "adjusted close": "225.314063676432",
+      "volume": "3245342",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-07",
+      "open": "225.38",
+      "high": "227.67",
+      "low": "225.02",
+      "close": "227.12",
+      "adjusted close": "223.835754274304",
+      "volume": "3457952",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-04",
+      "open": "223.75",
+      "high": "226.08",
+      "low": "223.27",
+      "close": "226.0",
+      "adjusted close": "222.731949920714",
+      "volume": "3554328",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-03",
+      "open": "219.5",
+      "high": "222.83",
+      "low": "219.27",
+      "close": "222.72",
+      "adjusted close": "219.49938002806",
+      "volume": "3788265",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-02",
+      "open": "218.31",
+      "high": "220.2",
+      "low": "215.798",
+      "close": "219.73",
+      "adjusted close": "216.552616619817",
+      "volume": "3343399",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    },
+    {
+      "date": "2024-10-01",
+      "open": "220.63",
+      "high": "221.1",
+      "low": "215.9",
+      "close": "219.35",
+      "adjusted close": "216.178111571277",
+      "volume": "3548374",
+      "dividend amount": "0.0000",
+      "split coefficient": "1.0"
+    }
+  ]
+}

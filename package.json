@@ -1,0 +1,30 @@
+{
+  "name": "stockinc-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@apollo/subgraph": "^2.10.0",
+    "@graphql-tools/merge": "^9.0.22",
+    "@prisma/client": "^6.4.1",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6",
+    "stockinc-graphql": "file:",
+    "uuid": "^11.1.0"
+  }
+}
