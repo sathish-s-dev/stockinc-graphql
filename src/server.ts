@@ -1,4 +1,4 @@
-import { ApolloServer, ApolloConfig } from "@apollo/server";
+import { ApolloServer, ApolloConfig, BaseContext } from "@apollo/server";
 import {
   startStandaloneServer,
   StartStandaloneServerOptions,
@@ -38,6 +38,10 @@ const server = new ApolloServer({
 // }
 
 // // insertStocks();
+
+// const serverOptions: StartStandaloneServerOptions<BaseContext> = {
+//   context: async () => ({ prisma }),
+// };
 
 async function startServer() {
   const { url } = await startStandaloneServer(server, {
