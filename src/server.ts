@@ -9,6 +9,11 @@ import { typeDefs } from "./graphql/schemas";
 import { resolvers as res, resolvers } from "./graphql/resolvers";
 import { PrismaClient } from "@prisma/client";
 
+import { config } from "dotenv";
+
+// ✅ Load Environment Variables
+config();
+
 const rawData = readFileSync("./db.json", "utf8");
 const data = JSON.parse(rawData);
 
@@ -19,7 +24,7 @@ export interface ServerContext {
   prisma: PrismaClient;
 }
 
-const server = new ApolloServer({
+const server = new ApolloServer<BaseContext>({
   typeDefs,
   resolvers,
 });
@@ -45,7 +50,7 @@ const server = new ApolloServer({
 
 async function startServer() {
   const { url } = await startStandaloneServer(server, {
-    listen: { port: 4000 },
+    listen: { port: +process.env.PORT! || 4000 },
     context: async () => ({ prisma }),
   });
 

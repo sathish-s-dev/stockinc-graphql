@@ -7,6 +7,11 @@ import { json } from "body-parser";
 import { typeDefs } from "./graphql/schemas/index";
 import { resolvers } from "./graphql/resolvers/index";
 import { PrismaClient } from "@prisma/client";
+import { config } from "dotenv";
+import checkApiKey from "./middlewares/checkApiKey";
+
+// ✅ Load Environment Variables
+config();
 
 const prisma = new PrismaClient();
 
@@ -39,16 +44,16 @@ async function startServer() {
   app.use(
     "/graphql",
     json(),
+    checkApiKey,
     expressMiddleware(server, {
       context: async () => ({ prisma }),
     })
   );
 
+  const port = process.env.PORT || 4000;
   // ✅ Start Express Server
-  app.listen(4000, () => {
-    console.log(
-      "🚀 Server running at http://localhost:4000/graphql from express middleware"
-    );
+  app.listen(port, () => {
+    console.log(`🚀 Server running at http://localhost:${port}/graphql`);
   });
 }
 
