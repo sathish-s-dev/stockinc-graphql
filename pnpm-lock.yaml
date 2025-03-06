@@ -41,6 +41,9 @@ importers:
       graphql:
         specifier: ^16.10.0
         version: 16.10.0
+      graphql-request:
+        specifier: ^7.1.2
+        version: 7.1.2(graphql@16.10.0)
       graphql-tag:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.10.0)
@@ -509,6 +512,11 @@ packages:
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
+
+  graphql-request@7.1.2:
+    resolution: {integrity: sha512-+XE3iuC55C2di5ZUrB4pjgwe+nIQBuXVIK9J98wrVwojzDW3GMdSBZfxUk8l4j9TieIpjpggclxhNEU9ebGF8w==}
+    peerDependencies:
+      graphql: 14 - 16
 
   graphql-tag@2.12.6:
     resolution: {integrity: sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==}
@@ -1289,6 +1297,11 @@ snapshots:
 
   gopd@1.2.0: {}
 
+  graphql-request@7.1.2(graphql@16.10.0):
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0(graphql@16.10.0)
+      graphql: 16.10.0
+
   graphql-tag@2.12.6(graphql@16.10.0):
     dependencies:
       graphql: 16.10.0
@@ -1475,6 +1488,7 @@ snapshots:
       '@types/express': 4.17.21
       body-parser: 1.20.3
       cors: 2.8.5
+      dotenv: 16.4.7
       express: 4.21.2
       express-rate-limit: 7.5.0(express@4.21.2)
       graphql: 16.10.0

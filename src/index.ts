@@ -19,7 +19,13 @@ async function startServer() {
   const app = express();
 
   // ✅ Enable CORS
-  app.use(cors({ origin: "*" }));
+  app.use(
+    cors({
+      origin: ["http://localhost:5173", "https://stockinc.vercel.app"],
+      credentials: true,
+      allowedHeaders: ["Content-Type", "Authorization", "x-api-key"],
+    })
+  );
 
   // ✅ Correct Usage of Rate Limiting
 
