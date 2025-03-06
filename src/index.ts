@@ -9,6 +9,7 @@ import { resolvers } from "./graphql/resolvers/index";
 import { PrismaClient } from "@prisma/client";
 import { config } from "dotenv";
 import checkApiKey from "./middlewares/checkApiKey";
+import { connectDb } from "./db/connectDb";
 
 // ✅ Load Environment Variables
 config();
@@ -17,6 +18,7 @@ const prisma = new PrismaClient();
 
 async function startServer() {
   const app = express();
+  connectDb();
 
   // ✅ Enable CORS
   app.use(
