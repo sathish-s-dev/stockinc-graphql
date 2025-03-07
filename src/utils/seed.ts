@@ -1,10 +1,16 @@
 import { PrismaClient } from "@prisma/client";
 import data from "../../db.json";
+import { Stock } from "../db/schemas/Stock.schema";
+import { connectDb } from "../db/connectDb";
+import { config } from "dotenv";
+
+config();
 
 const prisma = new PrismaClient();
 
 async function main() {
-  const id = Math.random().toString(36).substring(2, 9);
+  // const id = Math.random().toString(36).substring(2, 9);
+  connectDb();
 
   // const user = await prisma.user.create({
   //   data: {
@@ -32,15 +38,17 @@ async function main() {
   //   },
   // });
 
-  const stocks = await prisma.stock.createMany({
-    data: data.stocks,
-  });
+  // const stocks = await prisma.stock.createMany({
+  //   data: data.stocks,
+  // });
 
-  const news = await prisma.news.createMany({
-    data: data.news,
-  });
+  const allStocks = await Stock.insertMany(data.stocks);
 
-  console.log("Database seeded!", stocks, news);
+  // const news = await prisma.news.createMany({
+  //   data: data.news,
+  // });
+
+  console.log("Database seeded!", allStocks);
 }
 
 main()

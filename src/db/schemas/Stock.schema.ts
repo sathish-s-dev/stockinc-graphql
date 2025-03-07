@@ -1,10 +1,18 @@
 import { model, Schema } from "mongoose";
 import { connectDb } from "../connectDb";
 
-interface IStock extends Document {
-  name: string;
-  age: number;
-  email: string;
+export interface IStock extends Document {
+  id: Number;
+  symbol: String;
+  company: String;
+  current_price: Number;
+  change: Number;
+  change_percent: Number;
+  market_cap: String;
+  volume: String;
+  pe_ratio: Number;
+  dividend_yield: Number;
+  logo: String;
 }
 
 const StockSchema = new Schema<IStock>({
@@ -12,11 +20,11 @@ const StockSchema = new Schema<IStock>({
     type: String,
     required: true,
   },
-  name: {
+  company: {
     type: String,
     required: true,
   },
-  price: {
+  current_price: {
     type: String,
     required: true,
   },
@@ -42,24 +50,24 @@ const StockSchema = new Schema<IStock>({
   },
 });
 
-const Stock = model("Stock", StockSchema);
+export const Stock = model("Stock", StockSchema);
 
-async function addStock() {
-  connectDb();
-  const stock = new Stock({
-    symbol: "AAPL",
-    name: "Apple Inc.",
-    price: 150,
-    volume: 1000000,
-    change: 10,
-    change_percent: 5,
-    market_cap: 1000000000,
-    pe_ratio: 30,
-  });
-  //   await stock.save();
+// async function addStock() {
+//   connectDb();
+//   const stock = new Stock({
+//     symbol: "AAPL",
+//     name: "Apple Inc.",
+//     price: 150,
+//     volume: 1000000,
+//     change: 10,
+//     change_percent: 5,
+//     market_cap: 1000000000,
+//     pe_ratio: 30,
+//   });
+//   //   await stock.save();
 
-  Stock.create(stock);
-  console.log("Stock added:", stock);
-}
+//   Stock.create(stock);
+//   console.log("Stock added:", stock);
+// }
 
-addStock();
+// addStock();

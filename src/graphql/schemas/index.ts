@@ -3,6 +3,12 @@ import { gql } from "graphql-tag";
 export const typeDefs = gql(`#graphql
   # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
 
+  interface Response {
+    message: String
+    status: Int
+    error: String
+  }
+
   # This "Book" type defines the queryable fields for every book in our data source.
   type Book {
     title: String
@@ -15,7 +21,7 @@ export const typeDefs = gql(`#graphql
   }
 
   type Stock {
-    id: Int
+    id: String
     symbol: String
     company: String
     current_price: Float
@@ -28,10 +34,26 @@ export const typeDefs = gql(`#graphql
     logo: String
   }
 
+
+
+  type StockResponse implements Response{
+    status: Int
+    message: String
+    error: String
+    data: [Stock]
+  }
+
   type User{
     id: ID!
     name: String!
     email: String!
+  }
+
+  type UserResponse implements Response{
+    status: Int
+    message: String
+    error: String
+    data: [User]
   }
 
   # The "Query" type is special: it lists all of the available queries that
@@ -48,28 +70,43 @@ type News {
     category: String
     timestamp: String
 }
+type NewsResponse implements Response{
+    status: Int
+    message: String
+    error: String
+    data: [News]
+  }
 
 type Watchlist {
-  id: ID!
-  userId: Int!
-  stockSymbols: [String!]!
-  stocks: [Stock!]! # Fetch full stock details
+  id: ID
+  userId: String
+  stockSymbols: [String]
+  stocks: [Stock] # Fetch full stock details
 }
 
-
-type Query {
-    books: [Book!]!
-    stocks(limit: Int = 10, offset: Int = 0): [Stock!]
-    allStocks: [Stock!]
-    stock(symbol: String!): Stock
-    getAllUsers: [User!]!
-    getAllNews: [News!]!
-    getWatchlistStocks(userId: Int!): Watchlist
+type WatchlistResponse implements Response{
+    status: Int
+    message: String
+    error: String
+    data: Watchlist
     
 }
 
+
+
+
+type Query {
+    stocks(limit: Int = 10, offset: Int = 0): StockResponse
+    allStocks: StockResponse
+    stock(symbol: String!): StockResponse
+    getAllUsers: UserResponse
+    getAllNews: NewsResponse
+    getWatchlistStocks(userId: String!): WatchlistResponse
+}
+
 type Mutation {
-  createUser(name: String!, email: String!): User!
-  addStockToWatchlist(userId: Int!, symbol: String!): String
+  createUser(name: String!, email: String!): UserResponse!
+  createMultipleUsers(count: Int!): UserResponse
+  addStockToWatchlist(userId: String!, symbol: String!): WatchlistResponse
 }
 `);

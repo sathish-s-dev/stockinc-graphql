@@ -10,6 +10,11 @@ import { resolvers as res, resolvers } from "./graphql/resolvers";
 import { PrismaClient } from "@prisma/client";
 
 import { config } from "dotenv";
+import { connectDb } from "./db/connectDb";
+import { Model, Schema } from "mongoose";
+import { Stock, IStock } from "./db/schemas/Stock.schema";
+import { News, INews } from "./db/schemas/News.schema";
+import { IUser, User } from "./db/schemas/User.schema";
 
 // ✅ Load Environment Variables
 config();
@@ -22,6 +27,9 @@ const prisma = new PrismaClient();
 
 export interface ServerContext {
   prisma: PrismaClient;
+  Stock: Model<IStock>;
+  News: Model<INews>;
+  User: Model<IUser>;
 }
 
 const server = new ApolloServer<BaseContext>({
@@ -49,9 +57,10 @@ const server = new ApolloServer<BaseContext>({
 // };
 
 async function startServer() {
+  connectDb();
   const { url } = await startStandaloneServer(server, {
     listen: { port: +process.env.PORT! || 4000 },
-    context: async () => ({ prisma }),
+    context: async () => ({ prisma, Stock, News, User }),
   });
 
   console.log(`🚀  Server ready at: ${url}`);
