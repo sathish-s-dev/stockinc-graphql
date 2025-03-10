@@ -15,6 +15,7 @@ import { Model, Schema } from "mongoose";
 import { Stock, IStock } from "./db/schemas/Stock.schema";
 import { News, INews } from "./db/schemas/News.schema";
 import { IUser, User } from "./db/schemas/User.schema";
+import { IWatchlist, Watchlist } from "./db/schemas/Watchlist.schema";
 
 // ✅ Load Environment Variables
 config();
@@ -30,6 +31,7 @@ export interface ServerContext {
   Stock: Model<IStock>;
   News: Model<INews>;
   User: Model<IUser>;
+  Watchlist: Model<IWatchlist>;
 }
 
 const server = new ApolloServer<BaseContext>({
@@ -60,7 +62,7 @@ async function startServer() {
   connectDb();
   const { url } = await startStandaloneServer(server, {
     listen: { port: +process.env.PORT! || 4000 },
-    context: async () => ({ prisma, Stock, News, User }),
+    context: async () => ({ prisma, Stock, News, User, Watchlist }),
   });
 
   console.log(`🚀  Server ready at: ${url}`);

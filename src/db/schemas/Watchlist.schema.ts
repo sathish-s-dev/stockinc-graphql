@@ -1,7 +1,7 @@
 import { model, Schema } from "mongoose";
 import { IStock } from "./Stock.schema";
 
-interface IWatchlist extends Document {
+export interface IWatchlist extends Document {
   _id: string;
   userId: string;
   stocks: IStock[];
