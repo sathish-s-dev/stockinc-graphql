@@ -1,22 +1,12 @@
 import { v4 } from "uuid";
 import { ServerContext } from "../../server";
+import { IUser } from "../../db/schemas/User.schema";
 
 export const userResolvers = {
   Query: {
     getAllUsers: async (_parent: any, args: any, { User }: ServerContext) => {
       try {
         const users = await User.find();
-        const aggregatedUsers = await User.aggregate([
-          { $skip: 5 },
-          {
-            $project: {
-              name: 1,
-              email: 1,
-              watchlistId: 1,
-            },
-          },
-        ]);
-        console.log(aggregatedUsers);
         return {
           data: users,
           message: "users fetched successfuly",

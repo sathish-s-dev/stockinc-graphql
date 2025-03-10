@@ -24,7 +24,19 @@ export const watchlistResolvers = {
       // 1️⃣ Get the watchlist for the given user
       const dbWatchlist = await Watchlist.find({ userId: args.userId });
 
-      console.log("watchlist ", dbWatchlist);
+      const watchlist1 = await Watchlist.aggregate([
+        { $match: { userId: args.userId } },
+        {
+          $lookup: {
+            from: "stocks",
+            localField: "stockSymbols",
+            foreignField: "symbol",
+            as: "stocks",
+          },
+        },
+      ]);
+
+      console.log("watchlist ", watchlist1);
 
       if (!dbWatchlist) {
         throw new Error("Watchlist not found");
@@ -43,7 +55,7 @@ export const watchlistResolvers = {
         message: "watchlist fetched successfully",
         status: 200,
         error: null,
-        data: [watchlist],
+        data: watchlist1,
       };
     },
   },

@@ -1,11 +1,19 @@
-
 import { gql } from "graphql-tag";
 
 export const userTypeDefs = gql`
+  type Watchlist {
+    id: ID
+    userId: String
+    stockSymbols: [String]
+    stocks: [Stock] # Fetch full stock details
+  }
+
   type User {
     id: ID!
     name: String!
     email: String!
+    watchlistId: String
+    watchlist: Watchlist
   }
 
   type UserResponse implements Response {
