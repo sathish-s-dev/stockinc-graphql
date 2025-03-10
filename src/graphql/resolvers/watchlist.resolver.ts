@@ -36,6 +36,8 @@ export const watchlistResolvers = {
         },
       ]);
 
+      const watchlist2 = await Watchlist.findOne({ userId: args.userId });
+
       console.log("watchlist ", watchlist1);
 
       if (!dbWatchlist) {

@@ -4,6 +4,29 @@ import { IUser } from "../../db/schemas/User.schema";
 
 export const userResolvers = {
   Query: {
+    getUser: async (
+      _parent: any,
+      args: { id: string },
+      { User }: ServerContext
+    ) => {
+      try {
+        const user = await User.findOne({ _id: args.id });
+        console.log(user);
+        return {
+          data: user,
+          message: "user fetched successfuly",
+          status: 200,
+          error: null,
+        };
+      } catch (error) {
+        return {
+          data: null,
+          message: "something went wrong",
+          status: 500,
+          error: "something went wrong on our server",
+        };
+      }
+    },
     getAllUsers: async (_parent: any, args: any, { User }: ServerContext) => {
       try {
         const users = await User.find();
@@ -67,7 +90,7 @@ export const userResolvers = {
         return {
           message: "user created sucessfully",
           status: 201,
-          data: [user],
+          data: user,
           error: null,
         };
       } catch (error) {
