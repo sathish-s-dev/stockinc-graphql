@@ -5,22 +5,15 @@ export const watchlistTypeDefs = gql`
     id: ID
     userId: String
     stockSymbols: [String]
-    stocks: [Stock] # Fetch full stock details
-  }
-
-  type WatchlistResponse implements Response {
-    status: Int
-    message: String
-    error: String
-    data: [Watchlist]
+    stocks: [Stock]
   }
 
   extend type Query {
-    getWatchlistStocks(userId: String!): WatchlistResponse
-    getAllWatchlists: WatchlistResponse
+    getWatchlistStocks(userId: String!): Watchlist
+    getAllWatchlists: [Watchlist]
   }
 
   extend type Mutation {
-    addStockToWatchlist(userId: String!, symbol: String!): WatchlistResponse
+    addStockToWatchlist(userId: String!, symbol: String!): Watchlist
   }
 `;

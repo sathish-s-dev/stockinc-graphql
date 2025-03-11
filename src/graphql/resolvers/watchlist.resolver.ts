@@ -1,4 +1,5 @@
 import { ServerContext } from "../../server";
+import { GraphQLError } from "graphql";
 
 export const watchlistResolvers = {
   Query: {
@@ -9,21 +10,13 @@ export const watchlistResolvers = {
     ) => {
       const watchlists = await Watchlist.find();
       console.log(watchlists);
-      return {
-        data: watchlists,
-        message: "watchlists fetched successfully",
-        status: 200,
-        error: null,
-      };
+      return watchlists;
     },
     getWatchlistStocks: async (
       _parent: any,
       args: { userId: string },
-      { Watchlist, Stock }: ServerContext
+      { Watchlist }: ServerContext
     ) => {
-      // 1️⃣ Get the watchlist for the given user
-      const dbWatchlist = await Watchlist.find({ userId: args.userId });
-
       const watchlist1 = await Watchlist.aggregate([
         { $match: { userId: args.userId } },
         {
@@ -39,26 +32,7 @@ export const watchlistResolvers = {
       const watchlist2 = await Watchlist.findOne({ userId: args.userId });
 
       console.log("watchlist ", watchlist1);
-
-      if (!dbWatchlist) {
-        throw new Error("Watchlist not found");
-      }
-
-      const stocks = await Stock.find({ symbol: dbWatchlist[0].stockSymbols });
-
-      const watchlist = {
-        userId: dbWatchlist[0].userId,
-        id: dbWatchlist[0]._id,
-        stocks,
-        stockSymbols: dbWatchlist[0].stockSymbols,
-      };
-      console.log(stocks);
-      return {
-        message: "watchlist fetched successfully",
-        status: 200,
-        error: null,
-        data: watchlist1,
-      };
+      return watchlist1;
     },
   },
   Mutation: {

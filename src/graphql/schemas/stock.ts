@@ -15,16 +15,9 @@ export const stockTypeDefs = gql`
     logo: String
   }
 
-  type StockResponse implements Response {
-    status: Int
-    message: String
-    error: String
-    data: [Stock]
-  }
-
   extend type Query {
-    stocks(limit: Int = 10, offset: Int = 0): StockResponse
-    allStocks: StockResponse
-    stock(symbol: String!): StockResponse
+    stocks(limit: Int = 10, offset: Int = 0): [Stock]
+    allStocks: [Stock]
+    stock(symbol: String!): Stock
   }
 `;

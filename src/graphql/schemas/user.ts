@@ -9,34 +9,20 @@ export const userTypeDefs = gql`
   }
 
   type User {
-    id: ID
-    name: String
-    email: String
-    watchlistId: String
+    id: ID!
+    name: String!
+    email: String!
+    watchlistId: String!
     watchlist: Watchlist
   }
 
-  type UserResponse implements Response {
-    status: Int
-    message: String
-    error: String
-    data: User
-  }
-
-  type AllUserResponse implements Response {
-    status: Int
-    message: String
-    error: String
-    data: [User]
-  }
-
   extend type Query {
-    getUser(id: ID!): UserResponse
-    getAllUsers: AllUserResponse
+    getAllUsers: [User]!
+    getUserByEmail(email: String!): User
   }
 
   extend type Mutation {
-    createUser(name: String!, email: String!): UserResponse
-    createMultipleUsers(count: Int!): AllUserResponse
+    createUser(name: String!, email: String!): User!
+    createMultipleUsers(count: Int!): [User]!
   }
 `;

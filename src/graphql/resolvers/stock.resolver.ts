@@ -1,3 +1,4 @@
+import { GraphQLError } from "graphql";
 import { ServerContext } from "../../server";
 import { Response } from "../../types";
 
@@ -12,31 +13,12 @@ export const stockResolvers = {
         .skip(args.offset)
         .limit(args.limit);
 
-      return {
-        data: paginattedStocks,
-        status: 200,
-        error: null,
-        message: "stocks fetched successfully",
-      };
+      return paginattedStocks;
     },
     allStocks: async (_parent: any, args: any, { Stock }: ServerContext) => {
-      try {
-        const stocks = await Stock.find();
-        console.log(stocks);
-        return {
-          message: "stock fetched successfully",
-          status: 200,
-          data: stocks,
-          error: null,
-        };
-      } catch (error) {
-        return {
-          message: "stock not found",
-          status: 404,
-          data: null,
-          error: "stock not found",
-        };
-      }
+      const stocks = await Stock.find();
+      console.log(stocks);
+      return stocks;
     },
     stock: async (
       _parent: any,
@@ -45,31 +27,17 @@ export const stockResolvers = {
     ) => {
       console.log("✅ Resolver is called with args:", args);
 
-      try {
-        const stock = await Stock.findOne({ symbol: args.symbol });
-        console.log("Fetched stock from DB:", stock);
-        console.log(stock);
-        if (!stock?._id) {
-          console.log("Stock not found:", args.symbol);
-          throw new Error("stock not found");
-        }
-        return {
-          message: "stock fetched successfully",
-          status: 200,
-          data: stock,
-          error: "stock not found",
-        };
-      } catch (error) {
-        console.error("Error fetching stock:", error);
-        if (error instanceof Error) {
-          return {
-            message: "stock not found",
-            status: 404,
-            data: null,
-            error: `stock not found with ${args.symbol} not found`,
-          };
-        }
+      const stock = await Stock.findOne({ symbol: args.symbol });
+      console.log("Fetched stock from DB:", stock);
+      console.log(stock);
+      if (!stock?._id) {
+        console.log("Stock not found:", args.symbol);
+        throw new GraphQLError("stock not found", {
+          extensions: { code: "NOT_FOUND", statusCode: 404 },
+          path: ["stock"],
+        });
       }
+      return stock;
     },
   },
   Mutation: {

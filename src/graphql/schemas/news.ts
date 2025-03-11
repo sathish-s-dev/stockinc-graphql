@@ -10,14 +10,7 @@ export const newsTypeDefs = gql`
     timestamp: String
   }
 
-  type NewsResponse implements Response {
-    status: Int
-    message: String
-    error: String
-    data: [News]
-  }
-
   extend type Query {
-    getAllNews: NewsResponse
+    getAllNews: [News]
   }
 `;

@@ -37,6 +37,16 @@ export interface ServerContext {
 const server = new ApolloServer<BaseContext>({
   typeDefs,
   resolvers,
+  formatError: (err) => {
+    return {
+      message: err.message,
+      path: err.path,
+      extensions: {
+        code: err.extensions?.code || "INTERNAL_SERVER_ERROR",
+        statusCode: err.extensions?.statusCode || 500,
+      },
+    };
+  },
 });
 
 // async function insertStocks() {
